@@ -18,9 +18,10 @@ function binarySearch(arr,target,left,right) {
 
 let arr = [1,2,3,4,5,6,7,8,9];
 
-let target = 12;
+// let target = 12;
+let target = 5;
 
-console.log(arr.length);
+// console.log(arr.length);
 
 let result = binarySearch(arr, target, 0, arr.length - 1);
 
